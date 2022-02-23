@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel" >
+
+        const produtoEstoque = ["Maça", "Pera", "Laranja", "Banana"];
+        const produtoFalta = ["Pessego", "Cereja", "Kiwi"]
+
+        const Box = ({item}) => <li>{item || "----"} </li>
+
+        const ul = 
+        <>
+            <h1>Lista de produtos em estoque</h1>
+            <ul> 
+                {
+                    produtoEstoque.map((produto, index) => <Box key={index.toString()} item={produto} /> )           
+                }
+            </ul>
+
+            <h2>Lista de produtos em falta</h2>
+            <ul> 
+                {
+                    produtoFalta.map((produto, index) => <Box key={index.toString()} item={produto} /> )           
+                }
+            </ul>
+        </>
+
+
+  
+
+
+        ReactDOM.render(ul, document.getElementById("container") );
+
+    </script>
+</body>
+</html>

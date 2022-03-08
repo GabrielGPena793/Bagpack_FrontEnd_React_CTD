@@ -1,0 +1,15 @@
+img{
+    width: 100px;
+    margin-top: 1.5rem;   
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+}
+
+.container-button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+   
+}

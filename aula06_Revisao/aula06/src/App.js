@@ -10,8 +10,8 @@ function App() {
 
         <img src={Eu} alt="exemplo" />
         <div className="container-button">
-        <Button>aceitar</Button>
-        <Button>cancelar</Button>
+          <Button>aceitar</Button>
+          <Button>cancelar</Button>
         </div>
       </Card>
   );

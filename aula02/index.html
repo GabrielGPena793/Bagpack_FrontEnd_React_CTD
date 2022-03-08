@@ -21,9 +21,9 @@
         const produtoEstoque = ["Maça", "Pera", "Laranja", "Banana"];
         const produtoFalta = ["Pessego", "Cereja", "Kiwi"]
 
-        const Box = ({item}) => <li>{item || "----"} </li>
+        const Box = ({ item }) => <li>{item || "----"} </li>
 
-        const ul = 
+        const conteudo = 
         <>
             <h1>Lista de produtos em estoque</h1>
             <ul> 
@@ -44,7 +44,7 @@
   
 
 
-        ReactDOM.render(ul, document.getElementById("container") );
+        ReactDOM.render(conteudo, document.getElementById("container") );
 
     </script>
 </body>

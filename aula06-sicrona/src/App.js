@@ -6,14 +6,12 @@ import ClassComponent from './componets/ClassComponent';
 function App() {
   return (
     <>
-    <div>
-        <div className='convidados-container'>
-          <span>Convidados:</span>
-          <FunctionalComponet convidados={data} />
+      <div className='convidados-container'>
+        <span>Convidados:</span>
+        <FunctionalComponet convidados={data} />
 
-          <span>Tarefas:</span>
-          <ClassComponent convidados={data} />
-        </div>
+        <span>Tarefas:</span>
+        <ClassComponent convidados={data} />
       </div>
     </>
   );

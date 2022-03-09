@@ -1,0 +1,26 @@
+*{
+  list-style: none;
+
+}
+
+.convidados-container{
+  width: 21rem;
+  text-align: center;
+  background-color: rgb(255, 251, 0);
+  border: 2px solid black;
+  margin: auto;
+  padding: 2rem;
+  line-height: 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.719);;
+}
+
+.convidados-container span{
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.convidados-container li{
+  color: rgb(14, 1, 1);
+}

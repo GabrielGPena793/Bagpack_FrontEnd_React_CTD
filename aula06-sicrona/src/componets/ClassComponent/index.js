@@ -7,7 +7,7 @@ export default class ClassComponent extends Component{
         return(
             <>
                 {
-                    this.props.convidados.map((item, index) => <li key={index.toString()}>{item.nome} trará {item.trara}</li>) 
+                    this.props.convidados.map(({nome, trara}, index) => <li key={index.toString()}>{nome} trará {trara}</li>) 
                 }
                    
             </>

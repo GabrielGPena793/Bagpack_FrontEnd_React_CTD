@@ -6,7 +6,7 @@ export default function FunctionalComponet(props){
         <>
             <ul>
                 {
-                    props.convidados.map((item, index) => <li key={index.toString()}>{item.nome} {item.convidado ? "está" : "não está"} convidado para a festa</li>)
+                    props.convidados.map(({nome, convidado}, index) => <li key={index.toString()}> {nome} {convidado ? "está" : "não está"} convidado para a festa </li>)
                 }
             </ul>
         

@@ -15,7 +15,4 @@ export default class ClassComponent extends Component{
 
     }
 
-      
-
-
 }

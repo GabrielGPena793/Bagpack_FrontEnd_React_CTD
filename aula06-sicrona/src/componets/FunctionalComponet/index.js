@@ -1,12 +1,10 @@
-export default function FunctionalComponet(props){
-
-
+export default function FunctionalComponet({convidados}){
 
     return(
         <>
             <ul>
                 {
-                    props.convidados.map(({nome, convidado}, index) => <li key={index.toString()}> {nome} {convidado ? "está" : "não está"} convidado para a festa </li>)
+                    convidados.map(({nome, convidado}, index) => <li key={index.toString()}> {nome} {convidado ? "está" : "não está"} convidado para a festa </li>)
                 }
             </ul>
         

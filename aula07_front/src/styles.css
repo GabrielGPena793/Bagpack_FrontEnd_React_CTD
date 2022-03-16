@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #7ebd9f;
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.input{
+    height: 47px;
+    width: 90%;
+    border-radius: 12px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container_buttons{
+    display: flex;
+    gap: 2rem;
+}

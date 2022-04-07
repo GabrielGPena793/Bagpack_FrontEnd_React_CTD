@@ -1,0 +1,17 @@
+.container-details{
+    width: 500px;
+    margin: auto;
+}
+
+.container-details img{
+    width: 100%;
+}
+
+.container-details h6 {
+    font-size: 1.5rem;
+
+}
+
+.container-details .voltar{
+    width: 50px;
+}

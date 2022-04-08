@@ -1,0 +1,26 @@
+.details{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: darkgoldenrod;
+}
+
+.container-details{
+    background-color: darkgrey;
+    padding: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.container-details button{
+    margin-top: 2rem;
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.container-details button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

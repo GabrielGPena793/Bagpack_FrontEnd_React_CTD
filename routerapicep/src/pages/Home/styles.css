@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: darkgoldenrod;
+}
+
+.home input{
+    height: 2rem ;
+    border: 1px solid burlywood;
+}
+
+.home input:focus{
+    outline: 2px solid rgba(0, 238, 255, 0.199);
+
+}
+
+.home button{
+    padding: 0.5rem;
+    font-weight: bold;
+}

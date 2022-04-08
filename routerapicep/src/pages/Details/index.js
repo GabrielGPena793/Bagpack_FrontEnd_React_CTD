@@ -13,7 +13,7 @@ export default function Details() {
 
     useEffect(() => {
         getCep();
-    },[])
+    })
 
     async function getCep(){
         try {
